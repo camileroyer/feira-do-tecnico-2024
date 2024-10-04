@@ -4,7 +4,7 @@ import webbrowser
 # Definindo a chave da API da NASA (substitua pela sua se necessário)
 api_key = "V7wcscMm12k2aJcrJh7oacrgKyDdmYxzt7nuASY5"
 
-# Solicitar que o usuário insira uma data no formato YYYY-MM-DD
+# Solicitar que o? usuário insira uma data no formato YYYY-MM-DD
 date = input("Digite a data (no formato AAAA-MM-DD) para ver a foto: ")
 
 # URL da API APOD (Astronomy Picture of the Day)
