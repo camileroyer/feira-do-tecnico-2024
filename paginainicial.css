@@ -5,3 +5,12 @@
     --titulos:#c0b1a1;
     --texto: #cdc6bb;
 }
+.alegreya-sc-regular {
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Alegreya SC", serif;
+}
