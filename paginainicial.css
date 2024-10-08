@@ -1,3 +1,20 @@
+header{
+    width: 100%;
+    height: 170vh;
+    display: block;
+    background-color: darkgreen;
+}
+main{
+    width: 100%;
+    height: 170vh;
+    display: block;
+    background-color: royalblue;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+    display: block;
+    background-color: red}
 :root{
     --fundo: #000000;
     --botoes-procura: #3a4c62;
