@@ -5,3 +5,17 @@
     --titulos:#c0b1a1;
     --texto: #cdc6bb;
 }
+
+@font-face{
+    font-family: 'bernoru';
+    src: url(fonte/bernoru-blackultraexpanded.otf);
+}
+
+@font-face{
+    font-family: 'open sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+}
+
+h1{
+    font-family: 'bernoru';
+}
