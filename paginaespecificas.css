@@ -16,6 +16,16 @@
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 }
 
+*{
+    background-color: var(--fundo);
+}
+
 h1{
+    font-family: 'bernoru';
+    color: var(--titulos);
+}
+
+#texto{
     font-family: 'open sans';
+    color: #cdc6bb;
 }
