@@ -21,12 +21,41 @@ main{
     display: block;
     background-color: royalblue;
 }
-footer{
-    width: 100%;
-    height: 80vh;
-    display: block;
-    background-color: red}
-
 h1{
     font-family: 'bernoru';
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    background-color: var(--fundo);
+}
+footer #icons{
+    margin-left: 5vw;
+    float: left;
+    margin-top: 2vh;
+
+}
+footer i{
+    color: var(--texto);
+    margin-left: 1vw;
+    font-size: 30px !important;
+}
+
+footer .textos{
+    width: 20vw;
+    float: left;
+    margin-left: 10vw;
+}
+
+footer #nomes{
+    width: 10vw;
+    float: left;
+    margin-left: 5vw;
+}
+footer .textos p{
+    color: var(--texto);
+    font-size: medium;
+    font-family: open sans;
 }
