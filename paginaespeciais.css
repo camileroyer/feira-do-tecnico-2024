@@ -19,11 +19,8 @@ main{
     width: 100%;
     height: 170vh;
     display: block;
-    background-color: royalblue;
 }
-h1{
-    font-family: 'bernoru';
-}
+
 *{
     background-color: var(--fundo);
 }
@@ -36,33 +33,102 @@ h1{
     margin-left: 8vh;
 }
 
+#tit{
+    width: 76vw;
+    height: 20vw;
+}
+
 .texto{
     font-family: 'open sans';
     color: #cdc6bb;
     font-size: 3vh;
     margin-left: 8vh;
+    margin-top: 15px;
+    
 }
 
+h4{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
 #texto{
     width: 76vw;
     height: 20vw;
-    margin-top: 10vh;
+    margin-top: -26vh;
+}
+
+.button {
+    font-family: open sans;   
+    font-size:16px;    
+    border-radius:40px;    
+    padding-left:10px;    
+    padding-right:10px;    
+    padding-top:4px;    
+    padding-bottom:5px;    
+    color:var(--texto);    
+    background-color:var(--botoes-data);    
+    outline:none;    
+    border:none;    
+    cursor:pointer;    
+    display:inline-block;    
+    text-decoration: none;  
+    transition: .4s;
+}
+
+
+    
+    .button:hover {
+    color:#ffffff;
+    background-color: var(--botoes-data);    
+}
+
+#anonovo{
+    margin-top: -13vw;
+}
+
+#primeirodia{
+    margin-top: 3vw;
+}
+
+#meioambiente{
+    margin-top: 3vw;
+}
+
+#natal{
+    margin-top: -13vw;
+}
+
+#finados{
+    margin-top: 3vw;
+}
+
+#mulher{
+    margin-top: 3vw;
 }
 
 #imagem1{
-    width:56vh;
-    height: 56vh;
+    width:44vh;
+    height: 44vh;
     position: absolute;
-    right: 0vw;
-    top: 0vw;
+    right: 1vw;
+    top: 2vw;
 
 }
 #imagem2{
-    width:58vh;
-    height: 58vh;
+    width:45vh;
+    height: 45vh;
     position: absolute;
     left: -4vh;
-    top: 70%;
+    top: 90%;
+}
+
+#esquerda{
+    float: left;
+}
+
+#direita{
+    float: left;
+    margin-left: 9vh;
 }
 
 footer{

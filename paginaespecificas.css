@@ -42,7 +42,7 @@ h1{
 #texto{
     width: 76vw;
     height: 20vw;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 #imagem1{
@@ -51,14 +51,15 @@ h1{
     position: absolute;
     right: 0vw;
     top: 0vw;
-
 }
+
 #imagem2{
     width:58vh;
     height: 58vh;
     position: absolute;
     left: -4vh;
-    top: 70%;
+    top: 60%;
+    float: left;
 }
 
 footer{
