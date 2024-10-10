@@ -24,6 +24,46 @@ main{
 h1{
     font-family: 'bernoru';
 }
+*{
+    background-color: var(--fundo);
+}
+
+h1{
+    font-family: 'bernoru';
+    color: var(--titulos);
+    font-size: 8vh;
+    margin-top: 10vh;
+    margin-left: 8vh;
+}
+
+.texto{
+    font-family: 'open sans';
+    color: #cdc6bb;
+    font-size: 3vh;
+    margin-left: 8vh;
+}
+
+#texto{
+    width: 76vw;
+    height: 20vw;
+    margin-top: 10vh;
+}
+
+#imagem1{
+    width:56vh;
+    height: 56vh;
+    position: absolute;
+    right: 0vw;
+    top: 0vw;
+
+}
+#imagem2{
+    width:58vh;
+    height: 58vh;
+    position: absolute;
+    left: -4vh;
+    top: 70%;
+}
 
 footer{
     width: 100%;
