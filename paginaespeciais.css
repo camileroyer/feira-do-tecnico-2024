@@ -44,18 +44,33 @@ footer i{
 }
 
 footer .textos{
-    width: 20vw;
     float: left;
-    margin-left: 10vw;
 }
 
-footer #nomes{
+footer #nomes {
     width: 10vw;
     float: left;
-    margin-left: 5vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
 }
-footer .textos p{
+footer #frase{
+    width: 30vw;
+}
+footer #frase p{
+    color: var(--texto);
+    font-size: 4vh;
+    font-family: open sans;
+    margin-left: 7vw;
+}
+footer .textos p, a{
     color: var(--texto);
     font-size: medium;
     font-family: open sans;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+footer #email{
+    width: 15vw;
+    margin-left: 3vw;
 }
