@@ -32,6 +32,122 @@ header{
     margin-top: 6vh;
     margin-left: 4vw;
 }
+
+.topnav {
+    background-color: rgb(68, 112, 68);
+    overflow: hidden;
+    height: 100%;    
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.3s;
+    
+  }
+  #opcao1{
+    margin-left: 170px;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+   
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+
+   
+  }
+#botaodropdow{
+  margin-top: 10px;
+ 
+}
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .myButton {
+    background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #4be85a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Cormorant Infant', serif;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #74d465;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+    }
+    
+    .myButton:hover {
+    background-color:#a2eb7b;
+    
+    }
+    
+    .myButton:active {
+    position:relative;
+    top:1px;
+    }
+
+
+
+
 .btn-group{
     margin-left: 30vw;
     margin-top: 0%;
@@ -86,7 +202,17 @@ header{
     margin-bottom: 200px;
     position: absolute;
 }
-
+#teste{
+    width: 40vw;
+    height: 80vh;
+    background-color: aqua;
+    margin-left: 55vw;
+    position: absolute;
+}
+#imgteste{
+    width: 40vw;
+    height: 80vh;
+}
 main {
     width: 100%;
     height: 110vh;
@@ -198,12 +324,10 @@ footer #frase p{
     font-family: open sans;
     margin-left: 7vw;
 }
-<<<<<<< HEAD
 
 @media screen {
     
 }
-=======
 footer .textos p, a{
     color: var(--texto);
     font-size: 15px;
@@ -217,4 +341,3 @@ footer #email{
     margin-left: 3vw;
 }
 
->>>>>>> 6385b680f9b26c7f8320c0948a849036ba92c02b
