@@ -33,129 +33,73 @@ header{
     margin-left: 4vw;
 }
 
-.topnav {
-    background-color: rgb(68, 112, 68);
-    overflow: hidden;
-    height: 100%;    
-  }
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 25px 20px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 0.3s;
-  }
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-    transition: 0.3s;
-    
-  }
-  #opcao1{
-    margin-left: 170px;
-  }
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    margin-left: 20px;
-   
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
+.dropbtn {
+    background-color: #000000;
     color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-
-   
-  }
-#botaodropdow{
-  margin-top: 10px;
- 
-}
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(255, 255, 255); 
-    color: black;
+    padding: 16px;
+    font-size: 13px;
+    border: none;
   }
   
-  /* Dropdown content (hidden by default) */
+  
+
+
+  .dropbtn{
+    width: 80vw;
+  }
+  #drop1{
+    display: inline-flex;
+  }
+  #drop2{
+    display: inline-flex;
+    margin-left: 2vw;
+  }
+  #drop3{
+    display: inline-flex;
+    margin-left: 2vw;
+  }
+  #drop4{
+    display: inline-flex;
+    margin-left: 2vw;
+  }
+  #drop5{
+    display: inline-flex;
+    margin-left: 2vw;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #f1f1f1;
+    min-width: 80vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; 
-
+    z-index: 1;
   }
+  
   /* Links inside the dropdown */
   .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
-    
   }
   
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .myButton {
-    background-color:#44c767;
-    border-radius:28px;
-    border:1px solid #4be85a;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family: 'Cormorant Infant', serif;
-    font-size:17px;
-    padding:16px 31px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #74d465;
-    margin-top: 60px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-    justify-content: center;
-    
-    }
-    
-    .myButton:hover {
-    background-color:#a2eb7b;
-    
-    }
-    
-    .myButton:active {
-    position:relative;
-    top:1px;
-    }
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #000000;}
 
 
-
-
-.btn-group{
-    margin-left: 30vw;
-    margin-top: 0%;
-}
-.btn-danger{
-    font-family: "Alegreya SC", serif;
-    
-}
 #tprincipal{
     font-family: 'bernoru';
     color: #c0b1a1;
