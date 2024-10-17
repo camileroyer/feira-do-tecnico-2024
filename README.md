@@ -1,10 +1,10 @@
 # Universo Visto Por Telas
 
 ### 🪐Tema do Projeto
-*O site gira entorno da área de Astronomia, matéria que visa conhecer e analisar os fenômenos que acontecem fora da atmosfera da terra.*
+*O projeto é focado em apresentar fotos de corpos celestes e fenômenos que se originam fora da atmosfera da Terra através de uma interação com o banco de dados, utilizando-se de datas que podem até mesmo serem escolhidas pelo usuário. Também há alguns textos, artigos e notícias sobre astronomia, tudo para complementar os conhecimentos do público e despertar o interesse dele pelo assunto.*
 
 ### 🪐Área do Projeto
-*Ciências da Natureza.*
+*O site gira entorno da área de conhecimento de Ciências da Natureza, especificamente Astronomia, matéria que visa conhecer e analisar os fenômenos que acontecem fora da atmosfera da terra.*
 
 ### 🪐Objetivo
 *O objetivo do projeto é apresentar o universo através de fotos selecionadas do banco de dados que tenha uma interação do usuário para tal ação.*
