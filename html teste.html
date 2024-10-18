@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto do Dia da NASA</title>
+    <link rel="stylesheet" href="css_teste.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Foto do Dia da NASA</h1>
+        <div class="date-selection">
+            <select id="day" required>
+                <option value="">Dia</option>
+                <!-- Opções de 1 a 31 -->
+                <script>
+                    for (let i = 1; i <= 31; i++) {
+                        document.write(`<option value="${i}">${i}</option>`);
+                    }
+                </script>
+            </select>
+            <select id="month" required>
+                <option value="">Mês</option>
+                <option value="01">Janeiro</option>
+                <option value="02">Fevereiro</option>
+                <option value="03">Março</option>
+                <option value="04">Abril</option>
+                <option value="05">Maio</option>
+                <option value="06">Junho</option>
+                <option value="07">Julho</option>
+                <option value="08">Agosto</option>
+                <option value="09">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+            <select id="year" required>
+                <option value="">Ano</option>
+                <!-- Opções de 1996 a 2024 -->
+                <script>
+                    for (let i = 1996; i <= 2024; i++) {
+                        document.write(`<option value="${i}">${i}</option>`);
+                    }
+                </script>
+            </select>
+            <button id="submit">Buscar Foto</button>
+        </div>
+        <div id="result" class="result">
+            <h2 id="result-title"></h2>
+            <p id="result-description"></p>
+            <img id="result-image" src="" alt="Imagem do Dia" />
+        </div>
+    </div>
+    <script src="teste.js"></script>
+</body>
+</html>
