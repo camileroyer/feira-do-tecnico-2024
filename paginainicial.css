@@ -337,20 +337,60 @@ footer #email{
     margin-left: 3vw;
 }
 
+@media only screen and (max-width: 1125px) {
+    
+    
+    main h2{
+        margin-left: 250px;
+        font-size: 25px;
+    }
+    #linha {
+        width: 25vw;
+        height: 0,5vh;
+        margin-left: 250px;
+    }
+    main .opcoes{
+        width: 35vw;
+        margin-left: 30px;
+    }
+    main #num1{
+        width: 10vw;
+        margin-bottom: 3vh;
+    }
+    main #num2{
+        width: 11vw;
+    }
+    
+    main .imgdois{
+        width: 17vw;
+        margin-left: 2vw;
+    }
+    .opcoes h3{
+        font-size: 15px;
+    }
+    
+    .opcoes p{
+        color: var(--texto);
+        font-size: 9px;
+        font-family: open sans;
+    }
+
+}
+
 @media only screen and (max-width: 857px) {
     
     
     main h2{
-        margin-left: 150px;
+        margin-left: 210px;
         font-size: 20px;
     }
     #linha {
         width: 22vw;
         height: 0,5vh;
-        margin-left: 150px;
+        margin-left: 210px;
     }
     main .opcoes{
-        width: 30vw;
+        width: 35vw;
         margin-left: 30px;
     }
     main #num1{
@@ -373,6 +413,94 @@ footer #email{
         color: var(--texto);
         font-size: 8px;
         font-family: open sans;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    
+    
+    main h2{
+        margin-left: 180px;
+        font-size: 14px;
+    }
+    #linha {
+        width: 20vw;
+        height: 2px;
+        margin-left: 180px;
+    }
+    main .opcoes{
+        width: 25vw;
+        margin-left: 30px;
+    }
+    main #num1{
+        width: 6vw;
+        margin-bottom: 3vh;
+    }
+    main #num2{
+        width: 7vw;
+    }
+    
+    main .imgdois{
+        width: 15vw;
+        margin-left: 2vw;
+    }
+    .opcoes h3{
+        font-size: 10px;
+    }
+    
+    .opcoes p{
+        color: var(--texto);
+        font-size: 6px;
+        font-family: open sans;
+    }
+    .opcoes #pespeciais{
+        margin-top: 5.5vh;
+    }
+}
+
+@media only screen and (max-width: 543px) {
+    
+    
+    main h2{
+        margin-left: 125px;
+        font-size: 15px;
+    }
+    #linha {
+        width: 26vw;
+        height: 0,5vh;
+        margin-left: 125px;
+    }
+    main #opcao1{
+        margin-left: 20vw;
+    }
+    main .opcoes{
+        width: 40vw;
+        margin-left: 20px;
+    }
+    main #num1{
+        width: 8vw;
+        margin-bottom: 3vh;
+    }
+    main #num2{
+        width: 9vw;
+    }
+    
+    main .imgdois{
+        width: 15vw;
+        margin-left: 2vw;
+    }
+    .opcoes h3{
+        font-size: 12px;
+    }
+    
+    .opcoes p{
+        color: var(--texto);
+        font-size: 8px;
+        font-family: open sans;
+    }
+    .opcoes #pespeciais{
+        margin-top: 0;
     }
 
 }
