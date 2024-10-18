@@ -66,10 +66,41 @@ header{
     display: inline-flex;
     margin-left: 2vw;
   }
+  .textosdrop{
+    font-size: 10px;
+  }
+
+  .explic{
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  #td1{
+    margin-left: 200px;
+    font-size: 10px;
+    margin-right: 0;
+  }
+  #td2{
+    margin-left: -15px;
+    font-size: 10px;
+  }
+  #td3{
+    margin-left: 0px;
+    font-size: 10px;
+  }
+  #td4{
+    margin-left: 0px;
+    font-size: 10px;
+  }
+  #td5{
+    margin-left: 0px;
+    font-size: 10px;
+  }
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 20px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -88,6 +119,7 @@ header{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    width: 20vw;
   }
   
   /* Change color of dropdown links on hover */
