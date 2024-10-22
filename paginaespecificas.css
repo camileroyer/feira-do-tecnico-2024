@@ -20,6 +20,7 @@ main{
     height: 115vh;
     display: block;
 }
+
 *{
     background-color: var(--fundo);
 }
@@ -110,4 +111,72 @@ footer .textos p, a{
 footer #email{
     width: 15vw;
     margin-left: 3vw;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo clara */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff; /* Fundo branco para o contêiner */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50; /* Cor do título */
+}
+
+.date-selection {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+select {
+    padding: 10px;
+    border: 2px solid #3498db; /* Cor da borda dos selects */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px;
+    background-color: #ecf0f1; /* Fundo dos selects */
+    margin: 0 5px;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #2980b9; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
+}
+
+.result {
+    margin-top: 20px;
+    display: none; /* Esconder o resultado inicialmente */
+}
+
+img {
+    max-width: 100%; /* Imagem responsiva */
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+    margin-top: 10px;
 }
