@@ -137,9 +137,6 @@ margin-top: 10px;
     top:1px;
     }
 
-
-
-
 .btn-group{
     margin-left: 30vw;
     margin-top: 0%;
@@ -207,7 +204,7 @@ margin-top: 10px;
 }
 main {
     width: 100%;
-    height: 110vh;
+    height: 200vh;
     display: block;
     background-color: var(--fundo);
     padding-top: 80px;
@@ -236,6 +233,9 @@ main .opcoes{
     float: left;
 
 }
+main #opcao1{
+    margin-top: 4.5vh;
+}
 main #num1{
     margin-bottom: 3vh;
 }
@@ -244,6 +244,9 @@ main #num2{
 }
 main .imgnum{
     width: 10vw;
+}
+main #planetaterra{
+    width: 18vw;
 }
 
 main .imgdois{
@@ -283,6 +286,18 @@ main .imgdois{
     color:#ffffff;
     background-color:#414141;    
 }
+main #noticias h4{
+    color: var(--titulos);
+    margin-left: 450px;
+    font-family: bernoru;
+    font-size: 25px;
+    margin-top: 90vh;
+}
+main .noti{
+    width: 50vw;
+    height: 20vh;
+    color: var(--titulos);
+}
 footer{
     width: 100%;
     height: 30vh;
@@ -306,9 +321,9 @@ footer .textos{
 }
 
 footer #nomes {
-    width: 10vw;
+    width: 12vw;
     float: left;
-    margin-left: 10vw;
+    margin-left: 8vw;
     margin-top: 2vh;
 }
 footer #frase{
@@ -318,11 +333,7 @@ footer #frase p{
     color: var(--texto);
     font-size: 4vh;
     font-family: open sans;
-    margin-left: 7vw;
-}
-
-@media screen {
-    
+    margin-left: 5vw;
 }
 footer .textos p, a{
     color: var(--texto);
@@ -353,8 +364,16 @@ footer #email{
         width: 35vw;
         margin-left: 30px;
     }
+    
+    main #opcao1{
+        margin-top: 3vh;
+    }
+    
+    main #planetaterra{
+        width: 15vw;
+    }
     main #num1{
-        width: 10vw;
+        width: 9vw;
         margin-bottom: 3vh;
     }
     main #num2{
@@ -365,6 +384,7 @@ footer #email{
         width: 17vw;
         margin-left: 2vw;
     }
+
     .opcoes h3{
         font-size: 15px;
     }
