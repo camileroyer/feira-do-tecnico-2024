@@ -45,62 +45,76 @@ header{
 
 
   .dropbtn{
-    width: 80vw;
+    width: 64vw;
   }
   #drop1{
     display: inline-flex;
+    font-family: 'open sans';
   }
   #drop2{
     display: inline-flex;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    font-family: 'open sans';
   }
   #drop3{
     display: inline-flex;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    font-family: 'open sans';
   }
   #drop4{
     display: inline-flex;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    font-family: 'open sans';
   }
   #drop5{
     display: inline-flex;
-    margin-left: 2vw;
+    margin-left: 3vw;
+    font-family: 'open sans';
   }
-  .textosdrop{
-    font-size: 10px;
-  }
-
   .explic{
     font-size: 10px;
     margin-left: 0px;
   }
   #td1{
-    margin-left: 200px;
+    margin-left: 85px;
     font-size: 10px;
     margin-right: 0;
+    width: 100px;
+    font-family: 'open sans';
   }
   #td2{
     margin-right: -15px;
     font-size: 10px;
+    margin-left: -10px;
+    width: 120px;
+    font-family: 'open sans';
   }
   #td3{
-    margin-left: 0px;
+    margin-left: 30px;
     font-size: 10px;
+    font-family: 'open sans';
+    width: 130px;
   }
   #td4{
-    margin-left: 0px;
+    margin-left: 20px;
     font-size: 10px;
+    font-family: 'open sans';
+    width: 15px;
+  
   }
   #td5{
-    margin-right: 116px;
+    margin-right: 10vh;
+    margin-left: 20vh;
     font-size: 10px;
+    font-family: 'open sans';
+    width: 20px;
   }
 
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 20px;
+    margin-left:300px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -108,7 +122,7 @@ header{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 80vw;
+    min-width: 60vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
