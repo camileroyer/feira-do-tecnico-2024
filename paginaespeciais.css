@@ -1,183 +1,148 @@
-:root{
+:root {
     --fundo: #000000;
     --botoes-procura: #3a4c62;
     --botoes-data: #525252;
-    --titulos:#c0b1a1;
+    --titulos: #c0b1a1;
     --texto: #cdc6bb;
 }
 
-@font-face{
+@font-face {
     font-family: 'bernoru';
     src: url(fonte/bernoru-blackultraexpanded.otf);
 }
 
-@font-face{
+@font-face {
     font-family: 'open sans';
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 }
-main{
+
+main {
     width: 100%;
-    height: 140vh;
-    display: block;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    height: auto; /* Permite que o height se ajuste ao conteúdo */
 }
 
-*{
+* {
     background-color: var(--fundo);
 }
 
-h1{
+h1 {
     font-family: 'bernoru';
     color: var(--titulos);
     font-size: 8vh;
     margin-top: 10vh;
-    margin-left: 8vh;
+    text-align: center; /* Centraliza o título */
 }
 
-#tit{
+#tit {
     width: 76vw;
-    height: 20vw;
+    height: auto; /* Permite que o height se ajuste ao conteúdo */
 }
 
-.texto{
+.texto {
     font-family: 'open sans';
     color: #cdc6bb;
     font-size: 3vh;
-    margin-left: 8vh;
-    margin-top: 15px;
-    
+    margin: 15px 8vw; /* Aplica margens automáticas */
+    text-align: center; /* Centraliza o texto */
 }
 
-h4{
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-#texto{
-    width: 76vw;
-    height: 20vw;
-    margin-top: -26vh;
+h4 {
+    margin: 0; /* Remove margens desnecessárias */
 }
 
 .button {
-    font-family: open sans;   
-    font-size:16px;    
-    border-radius:40px;    
-    padding-left:10px;    
-    padding-right:10px;    
-    padding-top:4px;    
-    padding-bottom:5px;    
-    color:var(--texto);    
-    background-color:var(--botoes-data);    
-    outline:none;    
-    border:none;    
-    cursor:pointer;    
-    display:inline-block;    
-    text-decoration: none;  
+    font-family: open sans;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 4px 10px; /* Reduz o padding */
+    color: var(--texto);
+    background-color: var(--botoes-data);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
     transition: .4s;
 }
 
-
-    
-    .button:hover {
-    color:#ffffff;
-    background-color: var(--botoes-data);    
+.button:hover {
+    color: #ffffff;
+    background-color: var(--botoes-data);
 }
 
-#anonovo{
-    margin-top: -13vw;
+#imagem1, #imagem2 {
+    width: 40vh;
+    height: auto; /* Mantém a proporção */
 }
 
-#primeirodia{
-    margin-top: 3vw;
-}
-
-#meioambiente{
-    margin-top: 3vw;
-}
-
-#natal{
-    margin-top: -13vw;
-}
-
-#finados{
-    margin-top: 3vw;
-}
-
-#mulher{
-    margin-top: 3vw;
-}
-
-#imagem1{
-    width:44vh;
-    height: 44vh;
-    position: absolute;
-    right: 1vw;
-    top: 2vw;
-
-}
-#imagem2{
-    width:45vh;
-    height: 45vh;
-    position: absolute;
-    left: -4vh;
-    top: 90%;
-}
-
-#esquerda{
-    float: left;
-}
-
-#direita{
-    float: left;
-    margin-left: 9vh;
-}
-
-footer{
+footer {
     width: 100%;
-    height: 30vh;
-    display: block;
+    height: auto; /* Permite que o height se ajuste ao conteúdo */
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
     background-color: var(--fundo);
+    padding: 2vh 5vw; /* Adiciona padding */
 }
-footer #icons{
-    margin-left: 5vw;
-    float: left;
-    margin-top: 2vh;
 
+footer #icons {
+    margin: 2vh 0; /* Adiciona espaço ao redor dos ícones */
 }
-footer i{
+
+footer i {
     color: var(--texto);
     margin-left: 1vw;
     font-size: 30px !important;
 }
 
-footer .textos{
-    float: left;
+footer .textos {
+    text-align: center; /* Centraliza o texto */
+    margin: 1vh 0; /* Adiciona espaço entre os textos */
 }
 
 footer #nomes {
-    width: 10vw;
-    float: left;
-    margin-left: 10vw;
-    margin-top: 2vh;
+    margin: 2vh 0; /* Adiciona espaço ao redor dos nomes */
 }
-footer #frase{
-    width: 30vw;
-}
-footer #frase p{
+
+footer #frase p {
     color: var(--texto);
     font-size: 4vh;
     font-family: open sans;
-    margin-left: 7vw;
+    text-align: center; /* Centraliza a frase */
 }
-footer .textos p, a{
+
+footer .textos p, a {
     color: var(--texto);
     font-size: medium;
     font-family: open sans;
-    margin-top: 2vh;
-    margin-left: 2vw;
     text-decoration: none;
 }
-footer #email{
-    width: 15vw;
-    margin-left: 3vw;
-}
 
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vh; /* Ajusta o tamanho da fonte */
+    }
+
+    .texto {
+        font-size: 2.5vh; /* Ajusta o tamanho do texto */
+    }
+
+    #tit, #texto {
+        width: 90vw; /* Aumenta a largura em telas pequenas */
+    }
+
+    #esquerda, #direita {
+        width: 100%; /* Toma a largura total */
+        display: flex;
+        flex-direction: column; /* Organiza os elementos em coluna */
+        align-items: center; /* Centraliza os elementos */
+    }
+
+    #imagem1, #imagem2 {
+        width: 80%; /* Reduz a largura das imagens */
+        height: auto; /* Mantém a proporção */
+    }
+}
