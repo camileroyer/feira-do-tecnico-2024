@@ -304,6 +304,7 @@ footer #nomes {
     float: left;
     margin-left: 10vw;
     margin-top: 2vh;
+    line-height: 5vh;
 }
 footer #frase{
     width: 30vw;
@@ -313,10 +314,7 @@ footer #frase p{
     font-size: 4vh;
     font-family: open sans;
     margin-left: 7vw;
-}
-
-@media screen {
-    
+    line-height: 6vh;
 }
 footer .textos p, a{
     color: var(--texto);
