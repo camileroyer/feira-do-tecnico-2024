@@ -3,52 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datas especificas</title>
+    <title>Datas específicas</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="paginaespecificas.css">
+    <link rel="stylesheet" href="cssteste.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <div id="titulo">
             <h1>FOTOS DE DATAS ESPECIFICAS</h1>
         </div>
-        <div id="sonda">
-            <img src="imagens/sondaduasasas.png" id="imagem1">
-        </div>
+        <div id="sonda"></div>
         <div id="texto">
-            <p class="texto">Esta página é dedicada a mostrar fotos em uma data especifica.</p>
+            <p class="texto">Esta página é dedicada a mostrar fotos em uma data específica.</p>
             <p class="texto">As imagens podem ser captadas por alguns telescópios de grande porte, observatórios e sondas espaciais munidas de câmeras que usam a luz visível para capturar imagens.</p>
             <p class="texto">Podem também ser obtidas através de satélites, e fotos da Terra por astronautas que estão na Estação Espacial Internacional, que orbita a 250 milhas acima do nosso planeta, ou mesmo a caminho dela.</p>
         </div>
-        <div id="asteroide">
-            <img src="imagens/asteroide.png" id="imagem2">
-        </div>
-    </main>
-    <footer>
-        <div id="icons">
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-facebook-f"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
-        <div class="textos" id="frase">
-            <p>Transformando ideias em realidade. Conecte-se com a gente e faça parte dessa jornada!</p>
-        </div>
-        <div class="textos" id="nomes">
-            <a href="https://github.com/Biancapinz">Bianca Bulling</a>
-            <a href="https://github.com/camileroyer">Camile Royer</a>
-            <a href="https://github.com/giuliaalvess">Giulia Alves</a>
-            <a href="https://github.com/Rafadfonseca">Rafaela Duarte</a>
-        </div>
-        <div class="textos" id="email">
-            <p>uniersovistoportelas@gmail.com.br</p>
-        </div>
+        <div id="asteroide"></div>
+<div class="container">
+    <h2>ESCOLHA A DATA</h2>
+    <div class="date-selection">
+        <label for="day">Dia:</label>
+        <select id="day" required>
+            <option value="">Dia</option>
+            <script>
+                for (let i = 1; i <= 31; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select>
 
+        <label for="month">Mês:</label>
+        <select id="month" required>
+            <option value="">Mês</option>
+            <option value="01">Janeiro</option>
+            <option value="02">Fevereiro</option>
+            <option value="03">Março</option>
+            <option value="04">Abril</option>
+            <option value="05">Maio</option>
+            <option value="06">Junho</option>
+            <option value="07">Julho</option>
+            <option value="08">Agosto</option>
+            <option value="09">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
 
-    </footer>
+        <label for="year">Ano:</label>
+        <select id="year" required>
+            <option value="">Ano</option>
+            <script>
+                for (let i = 1996; i <= 2024; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                }
+            </script>
+        </select>
+        
+        <button id="submit">Buscar Foto</button>
+    </div>
+
+    <div id="result" class="result">
+        <h2 id="result-title">teste 12781</h2>
+        <p id="result-description">ewdefsdfsdf</p>
+        <img id="result-image" src="imagens/asteroide.png" alt="Imagem do Dia" />
+    </div>
+</div>
+
+</main>
+
+    <script src="teste.js"></script>
 </body>
 </html>

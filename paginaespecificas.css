@@ -15,11 +15,14 @@
     font-family: 'open sans';
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 }
+
 main{
     width: 100%;
-    height: 170vh;
+    height: 115vh;
     display: block;
+    text-align: center;
 }
+
 *{
     background-color: var(--fundo);
 }
@@ -29,14 +32,12 @@ h1{
     color: var(--titulos);
     font-size: 8vh;
     margin-top: 10vh;
-    margin-left: 8vh;
 }
 
 .texto{
     font-family: 'open sans';
     color: #cdc6bb;
     font-size: 3vh;
-    margin-left: 8vh;
 }
 
 #texto{
@@ -62,52 +63,65 @@ h1{
     float: left;
 }
 
-footer{
-    width: 100%;
-    height: 30vh;
-    display: block;
-    background-color: var(--fundo);
-}
-footer #icons{
-    margin-left: 5vw;
-    float: left;
-    margin-top: 2vh;
 
-}
-footer i{
-    color: var(--texto);
-    margin-left: 1vw;
-    font-size: 30px !important;
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--texto); /* Fundo branco para o contêiner */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
 }
 
-footer .textos{
-    float: left;
+h2 {
+    color: #2c3e50; /* Cor do título */
 }
 
-footer #nomes {
-    width: 10vw;
-    float: left;
-    margin-left: 10vw;
-    margin-top: 2vh;
+.date-selection {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
-footer #frase{
-    width: 30vw;
+
+select {
+    padding: 10px;
+    border: 2px solid var(--botoes-procura); /* Cor da borda dos selects */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px;
+    background-color: var(--texto); /* Fundo dos selects */
+    margin: 0 5px;
+    transition: border-color 0.3s;
 }
-footer #frase p{
-    color: var(--texto);
-    font-size: 4vh;
-    font-family: open sans;
-    margin-left: 7vw;
+
+select:focus {
+    border-color: var(--botoes-procura); /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
 }
-footer .textos p, a{
-    color: var(--texto);
-    font-size: medium;
-    font-family: open sans;
-    margin-top: 2vh;
-    margin-left: 2vw;
-    text-decoration: none;
+
+button {
+    padding: 10px 20px;
+    background-color: var(--botoes-procura); /* Cor de fundo do botão */
+    color: var(--texto); /* Cor do texto do botão */
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
 }
-footer #email{
-    width: 15vw;
-    margin-left: 3vw;
+
+button:hover {
+    background-color: var(--botoes-procura); /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
 }
+
+.result {
+    margin-top: 20px;/* Esconder o resultado inicialmente */
+}
+
+img {
+    max-width: 100%; /* Imagem responsiva */
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+    margin-top: 10px;
+}
+
