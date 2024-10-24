@@ -44,7 +44,7 @@ h1{
     font-size: 3vh;
     margin-left: 8vh;
     margin-top: 15px;
-    
+
 }
 
 h4{
@@ -58,28 +58,28 @@ h4{
 }
 
 .button {
-    font-family: open sans;   
-    font-size:16px;    
-    border-radius:40px;    
-    padding-left:10px;    
-    padding-right:10px;    
-    padding-top:4px;    
-    padding-bottom:5px;    
-    color:var(--texto);    
-    background-color:var(--botoes-data);    
-    outline:none;    
-    border:none;    
-    cursor:pointer;    
-    display:inline-block;    
-    text-decoration: none;  
+    font-family: open sans;
+    font-size:16px;
+    border-radius:40px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:5px;
+    color:var(--texto);
+    background-color:var(--botoes-data);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
     transition: .4s;
 }
 
 
-    
+
     .button:hover {
     color:#ffffff;
-    background-color: var(--botoes-data);    
+    background-color: var(--botoes-data);
 }
 
 #anonovo{
@@ -154,10 +154,11 @@ footer .textos{
 }
 
 footer #nomes {
-    width: 10vw;
+    width: 12vw;
     float: left;
     margin-left: 10vw;
     margin-top: 2vh;
+    line-height: 5vh;
 }
 footer #frase{
     width: 30vw;
@@ -165,13 +166,13 @@ footer #frase{
 footer #frase p{
     color: var(--texto);
     font-size: 4vh;
-    font-family: open sans;
     margin-left: 7vw;
+    line-height: 6vh;
 }
+
 footer .textos p, a{
     color: var(--texto);
-    font-size: medium;
-    font-family: open sans;
+    font-size: 15px;
     margin-top: 2vh;
     margin-left: 2vw;
     text-decoration: none;
@@ -179,5 +180,6 @@ footer .textos p, a{
 footer #email{
     width: 15vw;
     margin-left: 3vw;
+    line-height: 5vh;
 }
 
