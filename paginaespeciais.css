@@ -73,6 +73,8 @@ h4{
     display:inline-block;
     text-decoration: none;
     transition: .4s;
+    z-index: 1;
+    
 }
 
 
@@ -112,14 +114,14 @@ h4{
     position: absolute;
     right: 1vw;
     top: 2vw;
-
 }
 #imagem2{
     width:45vh;
     height: 45vh;
     position: absolute;
     left: -4vh;
-    top: 90%;
+    top: 97%;
+
 }
 
 #esquerda{
