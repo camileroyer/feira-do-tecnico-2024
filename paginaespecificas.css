@@ -20,7 +20,6 @@ main{
     width: 100%;
     height: 115vh;
     display: block;
-    text-align: center;
 }
 
 *{
@@ -32,12 +31,14 @@ h1{
     color: var(--titulos);
     font-size: 8vh;
     margin-top: 10vh;
+    margin-left: 8vh;
 }
 
 .texto{
     font-family: 'open sans';
     color: #cdc6bb;
     font-size: 3vh;
+    margin-left: 8vh;
 }
 
 #texto{
@@ -68,14 +69,26 @@ h1{
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background-color: var(--texto); /* Fundo branco para o contêiner */
+    background-color: var(--fundo); /* Fundo branco para o contêiner */
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
 }
 
 h2 {
-    color: #2c3e50; /* Cor do título */
+    color: var(--texto); /* Cor do título */
+}
+
+h3{
+    color: var(--texto);
+}
+
+#result-description{
+    color: var(--texto);
+}
+
+option{
+    color: var(--texto);
 }
 
 .date-selection {
@@ -125,3 +138,8 @@ img {
     margin-top: 10px;
 }
 
+#jogaprolado{
+    margin-right: 20vw;
+    margin-top: -5vw;
+    float: right;
+}
