@@ -44,7 +44,7 @@ h1{
     font-size: 3vh;
     margin-left: 8vh;
     margin-top: 15px;
-    
+
 }
 
 h4{
@@ -58,28 +58,28 @@ h4{
 }
 
 .button {
-    font-family: open sans;   
-    font-size:16px;    
-    border-radius:40px;    
-    padding-left:10px;    
-    padding-right:10px;    
-    padding-top:4px;    
-    padding-bottom:5px;    
-    color:var(--texto);    
-    background-color:var(--botoes-data);    
-    outline:none;    
-    border:none;    
-    cursor:pointer;    
-    display:inline-block;    
-    text-decoration: none;  
+    font-family: open sans;
+    font-size:16px;
+    border-radius:40px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:4px;
+    padding-bottom:5px;
+    color:var(--texto);
+    background-color:var(--botoes-data);
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration: none;
     transition: .4s;
 }
 
 
-    
+
     .button:hover {
     color:#ffffff;
-    background-color: var(--botoes-data);    
+    background-color: var(--botoes-data);
 }
 
 #anonovo{
