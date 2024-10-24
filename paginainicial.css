@@ -53,22 +53,22 @@ header{
   }
   #drop2{
     display: inline-flex;
-    margin-left: 3vw;
+    margin-left: 5vw;
     font-family: 'open sans';
   }
   #drop3{
     display: inline-flex;
-    margin-left: 3vw;
+    margin-left: 5vw;
     font-family: 'open sans';
   }
   #drop4{
     display: inline-flex;
-    margin-left: 3vw;
+    margin-left: 5vw;
     font-family: 'open sans';
   }
   #drop5{
     display: inline-flex;
-    margin-left: 3vw;
+    margin-left: 5vw;
     font-family: 'open sans';
   }
   .explic{
@@ -76,45 +76,45 @@ header{
     margin-left: 0px;
   }
   #td1{
-    margin-left: 85px;
+    margin-left: 45px;
     font-size: 10px;
-    margin-right: 0;
-    width: 100px;
+    margin-right: 1px;
+    width: 90px;
     font-family: 'open sans';
   }
   #td2{
-    margin-right: -15px;
+    margin-right: -10px;
     font-size: 10px;
-    margin-left: -10px;
-    width: 120px;
+    margin-left: 10px;
+    width: 140px;
     font-family: 'open sans';
   }
   #td3{
     margin-left: 30px;
     font-size: 10px;
     font-family: 'open sans';
-    width: 130px;
+    width: 150px;
   }
   #td4{
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 10px;
     font-family: 'open sans';
-    width: 15px;
+    width: 100px;
   
   }
   #td5{
-    margin-right: 10vh;
-    margin-left: 20vh;
+    margin-right: 20px;
+    margin-left: 10px;
     font-size: 10px;
     font-family: 'open sans';
-    width: 20px;
+    width: 100px;
   }
 
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-left:300px;
+    margin-left:200px;
   }
   
   /* Dropdown Content (Hidden by Default) */
