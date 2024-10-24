@@ -20,6 +20,7 @@ main{
     width: 100%;
     height: 115vh;
     display: block;
+    text-align: center;
 }
 
 *{
@@ -31,14 +32,12 @@ h1{
     color: var(--titulos);
     font-size: 8vh;
     margin-top: 10vh;
-    margin-left: 8vh;
 }
 
 .texto{
     font-family: 'open sans';
     color: #cdc6bb;
     font-size: 3vh;
-    margin-left: 8vh;
 }
 
 #texto{
