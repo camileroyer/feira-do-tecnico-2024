@@ -1,3 +1,15 @@
+function translateText(text, targetLang = "pt") {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${targetLang}&dt=t&q=${encodeURI(text)}`;
+
+    return fetch(url)
+        .then(response => response.json())
+        .then(data => data[0][0][0])
+        .catch(error => {
+            console.error("Erro ao traduzir: ", error);
+            return text; // Retorna o texto original se houver erro
+        });
+}
+
 document.getElementById("submit").addEventListener("click", function () {
     const day = document.getElementById("day").value;
     const month = document.getElementById("month").value;
@@ -16,8 +28,14 @@ document.getElementById("submit").addEventListener("click", function () {
                 return response.json();
             })
             .then(data => {
-                document.getElementById("result-title").innerText = data.title;
-                document.getElementById("result-description").innerText = data.explanation;
+                translateText(data.title).then(translatedTitle => {
+                    document.getElementById("result-title").innerText = translatedTitle;
+                });
+
+                translateText(data.explanation).then(translatedDescription => {
+                    document.getElementById("result-description").innerText = translatedDescription;
+                });
+
                 document.getElementById("result-image").src = data.url;
             })
             .catch(error => {

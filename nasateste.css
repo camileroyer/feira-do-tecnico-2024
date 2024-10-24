@@ -58,7 +58,7 @@ button:hover {
 
 .result {
     margin-top: 20px;
-    display: none; /* Esconder o resultado inicialmente */
+ /* Esconder o resultado inicialmente */
 }
 
 img {
@@ -66,3 +66,4 @@ img {
     border-radius: 10px; /* Bordas arredondadas na imagem */
     margin-top: 10px;
 }
+
