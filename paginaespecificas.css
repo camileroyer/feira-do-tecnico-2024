@@ -1,5 +1,5 @@
 :root{
-    --fundo: #f50303;
+    --fundo: #000000;
     --botoes-procura: #3a4c62;
     --botoes-data: #525252;
     --titulos:#c0b1a1;
@@ -64,73 +64,18 @@ h1{
     float: left;
 }
 
-footer{
-    width: 100%;
-    height: 30vh;
-    display: block;
-    background-color: var(--fundo);
-}
-footer #icons{
-    margin-left: 5vw;
-    float: left;
-    margin-top: 2vh;
-
-}
-footer i{
-    color: var(--texto);
-    margin-left: 1vw;
-    font-size: 30px !important;
-}
-
-footer .textos{
-    float: left;
-}
-
-footer #nomes {
-    width: 10vw;
-    float: left;
-    margin-left: 10vw;
-    margin-top: 2vh;
-}
-footer #frase{
-    width: 30vw;
-}
-footer #frase p{
-    color: var(--texto);
-    font-size: 4vh;
-    font-family: open sans;
-    margin-left: 7vw;
-}
-footer .textos p, a{
-    color: var(--texto);
-    font-size: medium;
-    font-family: open sans;
-    margin-top: 2vh;
-    margin-left: 2vw;
-    text-decoration: none;
-}
-footer #email{
-    width: 15vw;
-    margin-left: 3vw;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Cor de fundo clara */
-    margin: 0;
-    padding: 20px;
-}
 
 .container {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background-color: #ffffff; /* Fundo branco para o contêiner */
+    background-color: var(--texto); /* Fundo branco para o contêiner */
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
 }
 
-h1 {
+h2 {
     color: #2c3e50; /* Cor do título */
 }
 
@@ -142,23 +87,23 @@ h1 {
 
 select {
     padding: 10px;
-    border: 2px solid #3498db; /* Cor da borda dos selects */
+    border: 2px solid var(--botoes-procura); /* Cor da borda dos selects */
     border-radius: 20px; /* Bordas arredondadas */
     font-size: 16px;
-    background-color: #ecf0f1; /* Fundo dos selects */
+    background-color: var(--texto); /* Fundo dos selects */
     margin: 0 5px;
     transition: border-color 0.3s;
 }
 
 select:focus {
-    border-color: #2980b9; /* Cor da borda ao focar */
+    border-color: var(--botoes-procura); /* Cor da borda ao focar */
     outline: none; /* Remove o contorno padrão */
 }
 
 button {
     padding: 10px 20px;
-    background-color: #3498db; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    background-color: var(--botoes-procura); /* Cor de fundo do botão */
+    color: var(--texto); /* Cor do texto do botão */
     border: none;
     border-radius: 20px; /* Bordas arredondadas */
     font-size: 16px;
@@ -167,7 +112,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9; /* Cor ao passar o mouse */
+    background-color: var(--botoes-procura); /* Cor ao passar o mouse */
     transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
 }
 
