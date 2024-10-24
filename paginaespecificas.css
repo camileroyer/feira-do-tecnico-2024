@@ -69,14 +69,26 @@ h1{
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background-color: var(--texto); /* Fundo branco para o contêiner */
+    background-color: var(--fundo); /* Fundo branco para o contêiner */
     border-radius: 15px; /* Bordas arredondadas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
 }
 
 h2 {
-    color: #2c3e50; /* Cor do título */
+    color: var(--texto); /* Cor do título */
+}
+
+h3{
+    color: var(--texto);
+}
+
+#result-description{
+    color: var(--texto);
+}
+
+option{
+    color: var(--texto);
 }
 
 .date-selection {
@@ -126,3 +138,8 @@ img {
     margin-top: 10px;
 }
 
+#jogaprolado{
+    margin-right: 17vw;
+    margin-top: -6vw;
+    float: right;
+}
