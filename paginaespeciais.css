@@ -6,6 +6,11 @@
     --texto: #cdc6bb;
 }
 
+.alegreya-sc-regular {
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 @font-face{
     font-family: 'bernoru';
     src: url(fonte/bernoru-blackultraexpanded.otf);
@@ -151,12 +156,13 @@ footer i{
 
 footer .textos{
     float: left;
+    margin-bottom: 0px;
 }
 
 footer #nomes {
-    width: 10vw;
+    width: 12vw;
     float: left;
-    margin-left: 10vw;
+    margin-left: 8vw;
     margin-top: 2vh;
 }
 footer #frase{
@@ -166,18 +172,19 @@ footer #frase p{
     color: var(--texto);
     font-size: 4vh;
     font-family: open sans;
-    margin-left: 7vw;
+    margin-left: 5vw;
+    
 }
 footer .textos p, a{
     color: var(--texto);
-    font-size: medium;
+    font-size: 15px;
     font-family: open sans;
     margin-top: 2vh;
     margin-left: 2vw;
+    margin-bottom: 0px;
     text-decoration: none;
 }
 footer #email{
     width: 15vw;
     margin-left: 3vw;
 }
-

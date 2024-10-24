@@ -86,8 +86,8 @@ margin-top: 10px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1; 
-
   }
+
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
@@ -341,6 +341,7 @@ footer .textos p, a{
     font-family: open sans;
     margin-top: 2vh;
     margin-left: 2vw;
+    margin-bottom: 0px;
     text-decoration: none;
 }
 footer #email{
@@ -369,6 +370,9 @@ footer #email{
         margin-top: 3vh;
     }
     
+    main #opcao2{
+        float: none;
+    }
     main #planetaterra{
         width: 15vw;
     }
