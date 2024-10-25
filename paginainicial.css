@@ -292,10 +292,12 @@ main .imgdois{
 #pgnoticias{
    
 }
-#imgnoticias{
-    width: 15vw;
-    height: 30vh;
-    margin-top: 30vh;
+ #imgnoticias{
+    width: 20vw;
+    height: 40vh;
+    margin-top: 30vh; 
+    margin-left: 20px;
+   
 
 }
 #nottitulo{
@@ -304,7 +306,8 @@ main .imgdois{
     float:right;
     margin-right: 25vw;
     font-family: 'bernoru';
-    margin-top: 45vh;
+    margin-top: 30vh;
+   
 }
 .noticias{
     width: 70vw;
@@ -313,6 +316,11 @@ main .imgdois{
     margin-bottom: 5vh;
     margin-left: 15vw;
     border-radius: 30px;
+    z-index: 1;
+    position:relative;
+}
+#todasnoticias{
+    margin-top: -20vh;
 }
     
 .button:hover {
