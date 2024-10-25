@@ -64,6 +64,15 @@ h1{
     float: left;
 }
 
+#imagem3{
+    width:58vh;
+    height: 58vh;
+    position: absolute;
+    left: -4vh;
+    top: 130%;
+    float: left;
+}
+
 
 .container {
     max-width: 600px;
@@ -142,4 +151,61 @@ img {
     margin-right: 17vw;
     margin-top: -6vw;
     float: right;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    background-color: var(--fundo);
+    margin-top: 130vh;
+}
+footer #icons{
+    margin-left: 5vw;
+    float: left;
+    margin-top: 2vh;
+
+}
+footer i{
+    color: var(--texto);
+    margin-left: 1vw;
+    font-size: 30px !important;
+}
+
+footer .textos{
+    float: left;
+}
+
+footer #nomes {
+    width: 10vw;
+    float: left;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    line-height: 5vh;
+}
+footer #nomes :hover{
+    color: var(--botoes-procura);
+    text-decoration: none;
+}
+footer #frase{
+    width: 30vw;
+}
+footer #frase p{
+    color: var(--texto);
+    font-size: 4vh;
+    font-family: open sans;
+    margin-left: 7vw;
+    line-height: 6vh;
+}
+footer .textos p, a{
+    color: var(--texto);
+    font-size: 15px;
+    font-family: open sans;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+footer #email{
+    width: 15vw;
+    margin-left: 3vw;
 }
