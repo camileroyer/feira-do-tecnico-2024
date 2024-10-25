@@ -232,7 +232,7 @@ header #jupiter2{
 }
 main {
     width: 100%;
-    height: 110vh;
+    height: 250vh;
     display: block;
     background-color: var(--fundo);
     padding-top: 80px;
@@ -285,6 +285,34 @@ main .imgdois{
     display:inline-block;    
     text-decoration: none;  
     transition: .4s;
+}
+
+
+
+#pgnoticias{
+   
+}
+#imgnoticias{
+    width: 15vw;
+    height: 30vh;
+    margin-top: 30vh;
+
+}
+#nottitulo{
+    color: #cdc6bb;
+    font-size: 3vw;
+    float:right;
+    margin-right: 25vw;
+    font-family: 'bernoru';
+    margin-top: 45vh;
+}
+.noticias{
+    width: 70vw;
+    height: 20vh;
+    background-color: #cdc6bb;
+    margin-bottom: 5vh;
+    margin-left: 15vw;
+    border-radius: 30px;
 }
     
 .button:hover {
