@@ -64,6 +64,15 @@ h1{
     float: left;
 }
 
+#imagem3{
+    width:58vh;
+    height: 58vh;
+    position: absolute;
+    left: -4vh;
+    top: 130%;
+    float: left;
+}
+
 
 .container {
     max-width: 600px;
@@ -149,7 +158,7 @@ footer{
     height: 30vh;
     display: block;
     background-color: var(--fundo);
-    margin-top: 150vh;
+    margin-top: 130vh;
 }
 footer #icons{
     margin-left: 5vw;
