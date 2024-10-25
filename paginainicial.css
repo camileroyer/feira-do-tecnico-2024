@@ -320,6 +320,10 @@ footer #nomes {
     margin-top: 2vh;
     line-height: 5vh;
 }
+footer #nomes :hover{
+    color: var(--botoes-procura);
+    text-decoration: none;
+}
 footer #frase{
     width: 30vw;
 }
