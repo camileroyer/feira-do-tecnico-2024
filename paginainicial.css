@@ -148,7 +148,7 @@ header{
 
 #tprincipal{
     font-family: 'bernoru';
-    color: #c0b1a1;
+    color: var(--texto);
     font-size: 8vh;
 }
 
@@ -161,7 +161,7 @@ header{
 #retanguloi{
     width: 15vw;
     height: 2vh;
-    background-color: #c0b1a1;
+    background-color: var(--texto);
     margin-top: 2vh;
     margin-left: 10vw;
 }
@@ -170,7 +170,7 @@ header{
     padding-top: 5vh;
 }
 #subti{
-    color: #c0b1a1;
+    color: var(--texto);
     font-family: 'open sans';
     font-size: 3.5vh;
     width: 35vw;
@@ -204,13 +204,13 @@ header{
     height: 80vh;
 }
 header #jupitermetade{
-    width: 100vw;
+    width: 80vw;
     z-index: 2;
     position: relative
 
 }
 #linha {
-    background-color: var(--titulos);
+    background-color: var(--texto);
     width: 30vw;
     height: 1vh;
     display: block;
@@ -220,7 +220,7 @@ header #jupitermetade{
     position: relative
 }
 #jupitermetade h2{
-    color: var(--titulos);
+    color: var(--texto);
     margin-left: 200px;
     font-family: bernoru;
     font-size: 30px;
@@ -232,7 +232,7 @@ header #jupiter2{
 }
 main {
     width: 100%;
-    height: 110vh;
+    height: 250vh;
     display: block;
     background-color: var(--fundo);
     padding-top: 80px;
@@ -285,6 +285,34 @@ main .imgdois{
     display:inline-block;    
     text-decoration: none;  
     transition: .4s;
+}
+
+
+
+#pgnoticias{
+   
+}
+#imgnoticias{
+    width: 15vw;
+    height: 30vh;
+    margin-top: 30vh;
+
+}
+#nottitulo{
+    color: var(--texto);
+    font-size: 3vw;
+    float:right;
+    margin-right: 25vw;
+    font-family: 'bernoru';
+    margin-top: 45vh;
+}
+.noticias{
+    width: 70vw;
+    height: 20vh;
+    background-color: var(--texto);
+    margin-bottom: 5vh;
+    margin-left: 15vw;
+    border-radius: 30px;
 }
     
 .button:hover {
