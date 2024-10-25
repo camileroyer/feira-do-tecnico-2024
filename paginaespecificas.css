@@ -28,7 +28,7 @@ main{
 
 h1{
     font-family: 'bernoru';
-    color: var(--titulos);
+    color: var(--texto);
     font-size: 8vh;
     margin-top: 10vh;
     margin-left: 8vh;
@@ -78,14 +78,14 @@ h1{
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background-color: var(--fundo); /* Fundo branco para o contêiner */
-    border-radius: 15px; /* Bordas arredondadas */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: var(--fundo);
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
 }
 
 h2 {
-    color: var(--texto); /* Cor do título */
+    color: var(--texto); 
 }
 
 h3{
@@ -108,42 +108,42 @@ option{
 
 select {
     padding: 10px;
-    border: 2px solid var(--botoes-procura); /* Cor da borda dos selects */
-    border-radius: 20px; /* Bordas arredondadas */
+    border: 2px solid var(--botoes-procura); 
+    border-radius: 20px; 
     font-size: 16px;
-    background-color: var(--texto); /* Fundo dos selects */
+    background-color: var(--texto); 
     margin: 0 5px;
     transition: border-color 0.3s;
 }
 
 select:focus {
-    border-color: var(--botoes-procura); /* Cor da borda ao focar */
-    outline: none; /* Remove o contorno padrão */
+    border-color: var(--botoes-procura); 
+    outline: none;
 }
 
 button {
     padding: 10px 20px;
-    background-color: var(--botoes-procura); /* Cor de fundo do botão */
-    color: var(--texto); /* Cor do texto do botão */
+    background-color: var(--botoes-procura); 
+    color: var(--texto);
     border: none;
-    border-radius: 20px; /* Bordas arredondadas */
+    border-radius: 20px; 
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
 button:hover {
-    background-color: var(--botoes-procura); /* Cor ao passar o mouse */
-    transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
+    background-color: var(--botoes-procura); 
+    transform: scale(1.05);
 }
 
 .result {
-    margin-top: 20px;/* Esconder o resultado inicialmente */
+    margin-top: 20px;
 }
 
 img {
-    max-width: 100%; /* Imagem responsiva */
-    border-radius: 10px; /* Bordas arredondadas na imagem */
+    max-width: 100%; 
+    border-radius: 10px;
     margin-top: 10px;
 }
 
