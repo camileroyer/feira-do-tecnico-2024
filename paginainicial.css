@@ -383,3 +383,17 @@ footer #email{
     margin-left: 3vw;
 }
 
+
+
+.link-seta1 {
+            text-decoration: none;
+            font-size: 70px;
+            color: black;
+            padding-left: 700px; /* Ajuste o valor para mover mais ou menos */
+            display:inline flex;
+
+         }
+
+
+
+
