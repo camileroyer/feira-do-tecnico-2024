@@ -21,6 +21,9 @@
 ### 🪐Fotos
 ![Design sem nome (1)](https://github.com/user-attachments/assets/73fefd41-e413-4c89-9ff1-0dccae33d2b0)
 ![Design sem nome (2)](https://github.com/user-attachments/assets/853ab403-3b49-4259-8d93-0e04b588a78e)
+![Design sem nome](https://github.com/user-attachments/assets/6ca52877-a491-4d98-a009-aea37b2a1bca)
+![4](https://github.com/user-attachments/assets/bd50520d-1d93-4042-b657-14b10bc6ef8c)
+![5](https://github.com/user-attachments/assets/bffde4e4-971f-405c-b621-9ee23d1880ef)
 
 
 ## 👥Integrantes
