@@ -19,7 +19,13 @@
 *Neste trabalho, será explorado os aspectos técnicos, as funcionalidades e a usabilidade do site, bem como os benefícios que ele pode trazer para a comunidade acadêmica especializada em astronomia. Além disso, busca-se analisar o processo de desenvolvimento, os desafios enfrentados e as lições aprendidas ao longo do caminho.*
 
 ### 🪐Fotos
-**[...]**
+![foto 1](https://github.com/user-attachments/assets/73fefd41-e413-4c89-9ff1-0dccae33d2b0)
+![foto 1 (2)](https://github.com/user-attachments/assets/bddfb629-d134-4d50-a4a6-34911faceb59)
+![foto 2](https://github.com/user-attachments/assets/853ab403-3b49-4259-8d93-0e04b588a78e)
+![foto 3](https://github.com/user-attachments/assets/6ca52877-a491-4d98-a009-aea37b2a1bca)
+![foto 4](https://github.com/user-attachments/assets/bd50520d-1d93-4042-b657-14b10bc6ef8c)
+![foto 5](https://github.com/user-attachments/assets/bffde4e4-971f-405c-b621-9ee23d1880ef)
+![foto 6](https://github.com/user-attachments/assets/9a81ca44-3b3a-4f67-bfc1-dac54aac82c5)
 
 ## 👥Integrantes
 **[https://github.com/giuliaalvess]**
