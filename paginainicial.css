@@ -39,29 +39,25 @@ header{
     padding: 16px;
     font-size: 13px;
     border: none;
-  }
-  
-  
-
-
-  .dropbtn{
+}
+.dropbtn{
     width: 64vw;
-  }
-  #drop1{
+}
+#drop1{
     display: inline-flex;
     font-family: 'open sans';
-  }
-  #drop2{
-    display: inline-flex;
-    margin-left: 5vw;
-    font-family: 'open sans';
-  }
-  #drop3{
+}
+#drop2{
     display: inline-flex;
     margin-left: 5vw;
     font-family: 'open sans';
-  }
-  #drop4{
+}
+#drop3{
+    display: inline-flex;
+    margin-left: 5vw;
+    font-family: 'open sans';
+}
+#drop4{
     display: inline-flex;
     margin-left: 5vw;
     font-family: 'open sans';
@@ -321,6 +317,22 @@ main .imgdois{
 .noticias .resumonoticia{
     margin-left: 4vh;
     font-family: open sans;
+    
+}
+.textosnot{
+    float: left;
+    width: 60vw;
+    margin-top: 1vh;
+}
+.noticias .flechinha{
+    width: 8vw;
+    height: 8vw;
+    margin-left: 60vw;
+
+}
+.noticias .flechanot{
+    width: 5vw;
+    margin-top: 2vw;
 }
     
 .button:hover {
