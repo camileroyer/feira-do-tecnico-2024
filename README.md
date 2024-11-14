@@ -19,7 +19,9 @@
 *Neste trabalho, será explorado os aspectos técnicos, as funcionalidades e a usabilidade do site, bem como os benefícios que ele pode trazer para a comunidade acadêmica especializada em astronomia. Além disso, busca-se analisar o processo de desenvolvimento, os desafios enfrentados e as lições aprendidas ao longo do caminho.*
 
 ### 🪐Fotos
-**[...]**
+![Design sem nome (1)](https://github.com/user-attachments/assets/73fefd41-e413-4c89-9ff1-0dccae33d2b0)
+![Design sem nome (2)](https://github.com/user-attachments/assets/853ab403-3b49-4259-8d93-0e04b588a78e)
+
 
 ## 👥Integrantes
 **[https://github.com/giuliaalvess]**
