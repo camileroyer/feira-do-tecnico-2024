@@ -13,11 +13,21 @@
 </head>
 <body>
     <main>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
         <div id="tit">
             <h1>FOTOS DE DATAS ESPECIAIS</h1>
         </div>
         <div id="saturno">
-            <img src="imagens/saturno.png" id="imagem1" title="Saturno">
+            <img src="imagens/saturno.png" id="imagem1" alt="Saturno" title="Saturno">
         </div>
         <div id="texto">
             <p class="texto">Esta pagina é dedicada a mostrar fotos tiradas pela Nasa em datas especiais.</p>
@@ -50,6 +60,7 @@
             <a href="sextadata.html" target="_blank" class="button">Clique aqui!</a>
         </div>
     </div>
+    
     </main>
     <footer>
         <div id="icons">
