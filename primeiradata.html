@@ -14,9 +14,19 @@
 </head>
 <body>
     <main>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
         <h1>Illustris: uma simulação do universo</h1>
         <p>Como chegamos aqui?</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QSivvdIyeG4?si=4NICnHp0ncg-H5f3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QSivvdIyeG4?si=4NICnHp0ncg-H5f3" alt="vídeo do dia 25 de dezembro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </main>
 
     <script src="teste.js"></script>
